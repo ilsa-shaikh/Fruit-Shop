@@ -1,106 +1,106 @@
-body{
-    background-image:linear-gradient(to right,rgb(152, 209, 244),rgb(202, 77, 114))
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(152, 209, 244),
+    rgb(202, 77, 114));
 }
-.lg{
-    margin:0% 10%;
-    display: flex;
-    flex-direction: row;
+.lg {
+  margin: 0% 10%;
+  display: flex;
+  flex-direction: row;
 }
-.hello{
-    background-image: url(./about-img.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    color:white;
-    font-size:2rem;
+.hello {
+  background-image: url(./about-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 2rem;
+}
+.hello h1 {
+  font-size: 10.6rem;
+  margin: 5% 0;
+}
+.hello p {
+  margin-right: 10%;
+}
+.hello i {
+  margin-left: 2%;
+}
+.hello a {
+  color: white;
+}
+#fb:hover {
+  cursor: pointer;
+  color: #3b5998;
+}
+#tw:hover {
+  cursor: pointer;
+  color: #00acee;
+}
+.page {
+  background-color: white;
+  font-size: 1.5rem;
+  padding: 0 10px;
+}
+.page h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+.page p {
+  margin-bottom: 10%;
+}
+input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 1.5rem;
+  margin: 3% 0% 10% 0%;
+  width: 90%;
+}
 
+form a {
+  float: right;
 }
-.hello h1{
-    font-size:10.6rem;
-    margin:5% 0;
+input[type="submit"] {
+  border: none;
+  color: white;
+  background-color: darkcyan;
+  margin-top: 10%;
+  border-radius: 5px;
+  font-size: 2rem;
+  padding: 2% 5%;
+  text-align: center;
 }
-.hello p{
-    margin-right:10%;
+@media (max-width: 1000px) {
+  .hello h1 {
+    font-size: 8rem;
+  }
 }
-.hello i{
-        margin-left:2%;
-    }
-.hello a{
-    color:white;
-}
-#fb:hover{
-    cursor: pointer;
-    color:#3b5998;
-}    
-#tw:hover{
-    cursor:pointer;
-    color:#00acee;
-}
-.page{
-    background-color: white;
-    font-size:1.5rem;
-    padding:0 10px;
-}
-.page h1{
-    font-size:6rem;
-    text-align: center;
-}
-.page p{
-    margin-bottom:10%;
-}
-input[type=text],input[type=password]{
-    border:none;
-    border-bottom:2px solid #ccc;
-    font-size:1.5rem;
-    margin:3% 0% 10% 0%;
-    width:90%;
-}
-input[type=checkbox],label{}
-
-form a{
-    float:right;
-}
-.page button{
- border: none;
- color:white;
- background-color: darkcyan;
- margin-top: 10%;
- border-radius:5px;
- font-size: 2rem;
- padding:2% 5%;
- text-align: center;
-}
-@media (max-width:1000px){
-.hello h1{
-    font-size:8rem;
-}
-}
-@media (max-width:800px){
-    .lg{
-        flex-direction: column;
-    }
-    .hello{
-    font-size:1.3rem;
+@media (max-width: 800px) {
+  .lg {
+    flex-direction: column;
+  }
+  .hello {
+    font-size: 1.3rem;
     background-image: none;
-    border:5px solid white;
+    border: 5px solid white;
+  }
+  .hello h1 {
+    font-size: 4rem;
+    margin: 2% 0;
+  }
+  .page h1 {
+    font-size: 4.5rem;
+  }
 }
-    .hello h1{
-    font-size:4rem;
-    margin:2% 0;
-}
-.page h1{
-    font-size:4.5rem;
-}
-    
-
-}
-@media(max-width:600px){
-    .hello{
-        font-size:1rem;
-    }
-    .hello h1{
-        font-size:3rem;
-    }
-    .page h1{
-        font-size:3.5rem;
-    }
+@media (max-width: 600px) {
+  .hello {
+    font-size: 1rem;
+  }
+  .hello h1 {
+    font-size: 3rem;
+  }
+  .page h1 {
+    font-size: 3.5rem;
+  }
 }
